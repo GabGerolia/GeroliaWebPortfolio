@@ -56,11 +56,11 @@ function Portfolio() {
           yProjectcomponent = 5;
         }else if(conditions.is459){
             xAboutmeTitleValue = 0;
-            yAboutmeTitleValue = -450;
+            yAboutmeTitleValue = -400;
             yProjectTitleValue = -500;
             yTitleScaleValue = 0.65;
             xStacksTitleValue = 0;
-            yStacksTitleValue = -450;
+            yStacksTitleValue = -400;
             yAboutComponent = 5;
             yProjectcomponent = 5;
         }else if(conditions.is619){
