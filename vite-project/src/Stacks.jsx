@@ -86,26 +86,26 @@ function Stacks() {
             </div>
 
             <div className="Stacks-logo">
-                <div className="bop logoWrapper webdev frontend"><img className="logo" src="./src/assets/html.svg" alt="" /><div className="imgName"><p>HTML</p></div></div>
-                <div className="bop logoWrapper webdev frontend"><img className="logo" src="./src/assets/css.svg" alt="" /><div className="imgName"><p>CSS</p></div></div>
-                <div className="bop logoWrapper webdev frontend"><img className="logo" src="./src/assets/js.svg" alt="" /><div className="imgName"><p>JavaScript</p></div></div>
-                <div className="bop logoWrapper webdev frontend"><img className="logo" src="./src/assets/sass.svg" alt="" /><div className="imgName"><p>SASS</p></div></div>
-                <div className="bop logoWrapper webdev backend"><img className="logo" src="./src/assets/php.svg" alt="" /><div className="imgName"><p>PHP</p></div></div>
-                <div className="bop logoWrapper webdev backend"><img className="logo" src="./src/assets/sql.svg" alt="" /><div className="imgName"><p>SQL</p></div></div>
-                <div className="bop logoWrapper webdev fwlb"><img className="logo" src="./src/assets/react.svg" alt="" /><div className="imgName"><p>React</p></div></div>
-                <div className="bop logoWrapper webdev fwlb"><img className="logo" src="./src/assets/vite.svg" alt="" /><div className="imgName"><p>Vite</p></div></div>
-                <div className="bop logoWrapper webdev fwlb"><img className="logo" src="./src/assets/gsap.svg" alt="" /><div className="imgName"><p>GSAP</p></div></div>
-                <div className="bop logoWrapper webdev fwlb"><img className="logo" src="./src/assets/framer-motion.svg" alt="" /><div className="imgName"><p>Framer Motion</p></div></div>
-                <div className="bop logoWrapper webdev fwlb"><img className="logo" src="./src/assets/nodejs.svg" alt="" /><div className="imgName"><p>Node.js</p></div></div>
-                <div className="bop logoWrapper deskdev"><img className="logo" src="./src/assets/cpp.svg" alt="" /><div className="imgName"><p>C++</p></div></div>
-                <div className="bop logoWrapper deskdev"><img className="logo" src="./src/assets/csharp.svg" alt="" /><div className="imgName"><p>C#</p></div></div>
-                <div className="bop logoWrapper deskdev"><img className="logo" src="./src/assets/java.svg" alt="" /><div className="imgName"><p>Java</p></div></div>
-                <div className="bop logoWrapper deskdev"><img className="logo" src="./src/assets/vb-net.svg" alt="" /><div className="imgName"><p>VB.NET</p></div></div>
-                <div className="bop logoWrapper deskdev"><img className="logo" src="./src/assets/python.svg" alt="" /><div className="imgName"><p>Python</p></div></div>
-                <div className="bop logoWrapper tools"><img className="logo" src="./src/assets/msoffice.svg" alt="" /><div className="imgName"><p>MS Office</p></div></div>
-                <div className="bop logoWrapper tools"><img className="logo" src="./src/assets/unity.svg" alt="" /><div className="imgName"><p>Unity</p></div></div>
-                <div className="bop logoWrapper tools"><img className="logo" src="./src/assets/vscode.svg" alt="" /><div className="imgName"><p>VS Code</p></div></div>
-                <div className="bop logoWrapper tools"><img className="logo" src="./src/assets/vs2022.svg" alt="" /><div className="imgName"><p>Visual Studio 2022</p></div></div>
+                <div className="bop logoWrapper webdev frontend"><img className="logo" src="/assets/html.svg" alt="" /><div className="imgName"><p>HTML</p></div></div>
+                <div className="bop logoWrapper webdev frontend"><img className="logo" src="/assets/css.svg" alt="" /><div className="imgName"><p>CSS</p></div></div>
+                <div className="bop logoWrapper webdev frontend"><img className="logo" src="/assets/js.svg" alt="" /><div className="imgName"><p>JavaScript</p></div></div>
+                <div className="bop logoWrapper webdev frontend"><img className="logo" src="/assets/sass.svg" alt="" /><div className="imgName"><p>SASS</p></div></div>
+                <div className="bop logoWrapper webdev backend"><img className="logo" src="/assets/php.svg" alt="" /><div className="imgName"><p>PHP</p></div></div>
+                <div className="bop logoWrapper webdev backend"><img className="logo" src="/assets/sql.svg" alt="" /><div className="imgName"><p>SQL</p></div></div>
+                <div className="bop logoWrapper webdev fwlb"><img className="logo" src="/assets/react.svg" alt="" /><div className="imgName"><p>React</p></div></div>
+                <div className="bop logoWrapper webdev fwlb"><img className="logo" src="/assets/vite.svg" alt="" /><div className="imgName"><p>Vite</p></div></div>
+                <div className="bop logoWrapper webdev fwlb"><img className="logo" src="/assets/gsap.svg" alt="" /><div className="imgName"><p>GSAP</p></div></div>
+                <div className="bop logoWrapper webdev fwlb"><img className="logo" src="/assets/framer-motion.svg" alt="" /><div className="imgName"><p>Framer Motion</p></div></div>
+                <div className="bop logoWrapper webdev fwlb"><img className="logo" src="/assets/nodejs.svg" alt="" /><div className="imgName"><p>Node.js</p></div></div>
+                <div className="bop logoWrapper deskdev"><img className="logo" src="/assets/cpp.svg" alt="" /><div className="imgName"><p>C++</p></div></div>
+                <div className="bop logoWrapper deskdev"><img className="logo" src="/assets/csharp.svg" alt="" /><div className="imgName"><p>C#</p></div></div>
+                <div className="bop logoWrapper deskdev"><img className="logo" src="/assets/java.svg" alt="" /><div className="imgName"><p>Java</p></div></div>
+                <div className="bop logoWrapper deskdev"><img className="logo" src="/assets/vb-net.svg" alt="" /><div className="imgName"><p>VB.NET</p></div></div>
+                <div className="bop logoWrapper deskdev"><img className="logo" src="/assets/python.svg" alt="" /><div className="imgName"><p>Python</p></div></div>
+                <div className="bop logoWrapper tools"><img className="logo" src="/assets/msoffice.svg" alt="" /><div className="imgName"><p>MS Office</p></div></div>
+                <div className="bop logoWrapper tools"><img className="logo" src="/assets/unity.svg" alt="" /><div className="imgName"><p>Unity</p></div></div>
+                <div className="bop logoWrapper tools"><img className="logo" src="/assets/vscode.svg" alt="" /><div className="imgName"><p>VS Code</p></div></div>
+                <div className="bop logoWrapper tools"><img className="logo" src="/assets/vs2022.svg" alt="" /><div className="imgName"><p>Visual Studio 2022</p></div></div>
             </div>
         </div>
     </div>

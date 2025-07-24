@@ -25,28 +25,28 @@ function Contact(){
             <div className="contactImage">
                 <a href="https://www.facebook.com/johngabriel.gerolia" target="_blank">
                     <img
-                    src="./src/assets/fb.svg"
+                    src="/assets/fb.svg"
                     alt="fb_logo"
                 /></a>
             </div>
             <div className="contactImage">
                 <a href="mailto:johngabrielgerolia05@gmail.com" target="_blank">
                 <img
-                    src="./src/assets/gmail.svg"
+                    src="/assets/gmail.svg"
                     alt="gmail_logo"
                 /></a>
             </div>
             <div className="contactImage">
                 <a href="https://www.linkedin.com/in/john-gabriel-gerolia-31b59b347/" target="_blank">
                     <img
-                        src="./src/assets/linkedin.svg"
+                        src="/assets/linkedin.svg"
                         alt="linkedin_logo"
                 /></a>
             </div>
             <div className="contactImage">
                 <a href="https://github.com/GabGerolia" target="_blank">
                     <img
-                        src="./src/assets/github.svg"
+                        src="/assets/github.svg"
                         alt="github_logo"
                 /></a>
             </div>

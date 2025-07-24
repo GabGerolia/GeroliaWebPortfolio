@@ -334,7 +334,7 @@ function Portfolio() {
             </div>
             <div className="Project3">
                 <Projects 
-                    gif="./src/assets/capstone.png"
+                    gif="/assets/capstone.png"
                     alt="capstone"
                     title1 = "IoT-Enabled Smart Water Quality Monitoring System"
                     title2 = "CAPSTONE"
@@ -358,7 +358,7 @@ function Portfolio() {
             </div>
             <div className="Project1">
                 <Projects 
-                    gif="./src/assets/leagueauto.gif"
+                    gif="/assets/leagueauto.gif"
                     alt="leagueautogif"
                     title1 = "PYTHON SCRIPT AUTO ACCEPT & AUTO BAN FOR LEAGUE OF LEGENDS"
                     p1 = 'A simple script I made to automate pressing the "Accept" button and automatically ban Champion during ban phase.'
@@ -382,7 +382,7 @@ function Portfolio() {
             </div>
             <div className="Project2">
                 <Projects 
-                    gif="./src/assets/efmdgif.gif"
+                    gif="/assets/efmdgif.gif"
                     alt="efmdgif"
                     title2 = "ESCAPE FROM THE MOLTEN DEPTH"
                     p1 = 'I made an arcade style 2D Game in Unity 2D.'
