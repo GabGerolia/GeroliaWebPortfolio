@@ -60,7 +60,7 @@ function Portfolio() {
             yProjectTitleValue = -500;
             yTitleScaleValue = 0.65;
             xStacksTitleValue = 0;
-            yStacksTitleValue = -500;
+            yStacksTitleValue = -475;
             yAboutComponent = 5;
             yProjectcomponent = 5;
         }else if(conditions.is619){
