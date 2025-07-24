@@ -19,14 +19,16 @@ function Portfolio() {
   const mm = gsap.matchMedia();
 
   useGSAP(() => {
-    const mm = gsap.matchMedia();
+    const mm = gsap.matchMedia(); //RESPONSIVE TIME
 
     mm.add(
       {
         is1550: "(max-width: 1550px)",
         is1024: "(max-width: 1024px)",
+        is810: "(max-width: 810px)",
         is768: "(max-width: 768px)",
-        is425: "(max-width: 425px)",
+        is619: "(max-width: 619px)",
+        is459: "(max-width: 459px)",
         is320: "(max-width: 320px)",
         isAll: "(min-width: 1551px)", // fallback for large screens
       },
@@ -49,19 +51,37 @@ function Portfolio() {
           yProjectTitleValue = -600;
           yTitleScaleValue = 0.65;
           xStacksTitleValue = 0;
-          yStacksTitleValue = -600;
+          yStacksTitleValue = -550;
           yAboutComponent = 5;
           yProjectcomponent = 5;
-        }else if(conditions.is425){
+        }else if(conditions.is459){
             xAboutmeTitleValue = 0;
-            yAboutmeTitleValue = -400;
+            yAboutmeTitleValue = -450;
             yProjectTitleValue = -500;
             yTitleScaleValue = 0.65;
             xStacksTitleValue = 0;
-            yStacksTitleValue = -450;
+            yStacksTitleValue = -500;
+            yAboutComponent = 5;
+            yProjectcomponent = 5;
+        }else if(conditions.is619){
+            xAboutmeTitleValue = 0;
+            yAboutmeTitleValue = -450;
+            yProjectTitleValue = -500;
+            yTitleScaleValue = 0.65;
+            xStacksTitleValue = 0;
+            yStacksTitleValue = -350;
             yAboutComponent = 5;
             yProjectcomponent = 5;
         }else if (conditions.is768) {
+            xAboutmeTitleValue = 0;
+            yAboutmeTitleValue = -370;
+            yProjectTitleValue = -370;
+            yTitleScaleValue = 0.65;
+            xStacksTitleValue = 0;
+            yStacksTitleValue = -250;
+            yAboutComponent = 5;
+            yProjectcomponent = 5;
+        }else if (conditions.is810) {
             xAboutmeTitleValue = 0;
             yAboutmeTitleValue = -370;
             yProjectTitleValue = -370;
@@ -88,14 +108,14 @@ function Portfolio() {
             yProjectcomponent = 5;
         } else if (conditions.isAll){
             // VAR DEFAULTS. MUST BE SAME AS THE TOP
-            xAboutmeTitleValue = -80;
-            yAboutmeTitleValue = -250;
-            yProjectTitleValue = -250;
-            yTitleScaleValue = 0.8;
-            yAboutComponent = 0;
-            yProjectcomponent = 10;
-            xStacksTitleValue = -150;
-            yStacksTitleValue = -250;
+          xAboutmeTitleValue = -80;
+          yAboutmeTitleValue = -250;
+          yProjectTitleValue = -250;
+          xStacksTitleValue = -150;
+          yStacksTitleValue = -250;
+          yTitleScaleValue = 0.8;
+          yAboutComponent = 0;
+          yProjectcomponent = 10;
         }
 
 

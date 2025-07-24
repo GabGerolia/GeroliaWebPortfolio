@@ -368,8 +368,16 @@ body{
   .logoWrapper{
     scale:0.2;
   }
+
 }
 
+@media (max-width: 380px){
+  .Stacks-logo {
+
+    gap: 0.5em;
+
+  }
+}
 
 .Stacks-logo .imgName{
   position: absolute;
@@ -417,6 +425,13 @@ body{
 
   .Stacks-sorter{
     gap: 0.5em;
+  }
+}
+
+@media(max-width: 375px){
+    .Stacks-sorter button {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.65rem; /* slightly smaller font */
   }
 }
 
