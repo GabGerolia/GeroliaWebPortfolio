@@ -25,7 +25,7 @@ function Portfolio() {
       {
         is1550: "(max-width: 1550px)",
         is1024: "(max-width: 1024px)",
-        is810: "(max-width: 810px)",
+        is820: "(max-width: 820px)",
         is768: "(max-width: 768px)",
         is619: "(max-width: 619px)",
         is459: "(max-width: 459px)",
@@ -56,11 +56,11 @@ function Portfolio() {
           yProjectcomponent = 5;
         }else if(conditions.is459){
             xAboutmeTitleValue = 0;
-            yAboutmeTitleValue = -450;
-            yProjectTitleValue = -500;
+            yAboutmeTitleValue = -275;
+            yProjectTitleValue = -275;
             yTitleScaleValue = 0.65;
             xStacksTitleValue = 0;
-            yStacksTitleValue = -500;
+            yStacksTitleValue = -275;
             yAboutComponent = 5;
             yProjectcomponent = 5;
         }else if(conditions.is619){
@@ -81,19 +81,19 @@ function Portfolio() {
             yStacksTitleValue = -250;
             yAboutComponent = 5;
             yProjectcomponent = 5;
-        }else if (conditions.is810) {
+        }else if (conditions.is820) {
             xAboutmeTitleValue = 0;
             yAboutmeTitleValue = -370;
-            yProjectTitleValue = -370;
+            yProjectTitleValue = -300;
             yTitleScaleValue = 0.65;
             xStacksTitleValue = 0;
-            yStacksTitleValue = -250;
+            yStacksTitleValue = -275;
             yAboutComponent = 5;
             yProjectcomponent = 5;
         } else if (conditions.is1024) {
             xAboutmeTitleValue = 0;
             yAboutmeTitleValue = -280;
-            yProjectTitleValue = -280;
+            yProjectTitleValue = -275;
             yTitleScaleValue = 0.7;
             xStacksTitleValue = 0;
             yStacksTitleValue = -250;
@@ -146,8 +146,8 @@ function Portfolio() {
         });
 
         tl.to(".Portfolio-titlename", {
-          xPercent: xAboutmeTitleValue, //-80 default
-          yPercent: yAboutmeTitleValue, //-250 default
+          x: xAboutmeTitleValue, //-80 default
+          y: yAboutmeTitleValue, //-250 default
           duration: 1,
           ease: "circ.out",
           text: {
@@ -161,7 +161,7 @@ function Portfolio() {
         tl.to(
           ".Aboutme-component-parent",
           {
-            xPercent: 0,
+            x: 0,
             yPercent: yAboutComponent, // default 0
             opacity: 1,
             duration: 1,
@@ -181,8 +181,8 @@ function Portfolio() {
         tl.to(
           ".Portfolio-titlename",
           {
-            xPercent: 0,
-            yPercent: 0,
+            x: 0,
+            y: 0,
             duration: 2,
             ease: "circ.out",
             text: {
@@ -195,7 +195,7 @@ function Portfolio() {
         );
 
         tl.to(".Portfolio-titlename", {
-          yPercent: yProjectTitleValue,
+          y: yProjectTitleValue,
           scale: 0.6,
           duration: 0.5,
           ease: "circ.out",
@@ -207,7 +207,7 @@ function Portfolio() {
         tl.to(
           ".Project3",
           {
-            xPercent: 0,
+            x: 0,
             yPercent: yProjectcomponent, 
             opacity: 1,
             zIndex: 99,
@@ -219,7 +219,7 @@ function Portfolio() {
         tl.to(
           ".Project1",
           {
-            xPercent: 0,
+            x: 0,
             yPercent: yProjectcomponent,
             opacity: 1,
             zIndex: 99,
@@ -231,7 +231,7 @@ function Portfolio() {
         tl.to(
           ".Project2",
           {
-            xPercent: 0,
+            x: 0,
             yPercent: yProjectcomponent,
             opacity: 1,
             zIndex: 99,
@@ -243,8 +243,8 @@ function Portfolio() {
         tl.to(
           ".Portfolio-titlename",
           {
-            xPercent: 0,
-            yPercent: 0,
+            x: 0,
+            y: 0,
             duration: 1,
             scale: yTitleScaleValue,
             rotation: 360,
@@ -258,8 +258,8 @@ function Portfolio() {
         );
 
         tl.to(".Portfolio-titlename", {
-          xPercent: xStacksTitleValue,
-          yPercent: yStacksTitleValue, //-250
+          x: xStacksTitleValue,
+          y: yStacksTitleValue, //-250
           scale: 1,
           ease: "circ.out",
           text: {
@@ -274,7 +274,7 @@ function Portfolio() {
         tl.to(
           ".Stacks-component-parent",
           {
-            xPercent: 0,
+            x: 0,
             yPercent: 0,
             opacity: 1,
             duration: 0.5,
@@ -307,8 +307,8 @@ function Portfolio() {
         );
 
         tl.to(".Portfolio-titlename", {
-          xPercent: 0,
-          yPercent: -250,
+          x: 0,
+          y: -250,
           scale: 1,
           duration: 2,
           rotate: 360,
