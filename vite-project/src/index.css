@@ -45,12 +45,12 @@ html{
 
 body{
     overflow-x: hidden;
-    height: 600dvh;
+    height: 600svh;
 
 }
 
 .Portfolio-container{
-    height: 100dvh;
+    height: 100svh;
     width: 100vw;
 
 
@@ -114,7 +114,7 @@ body{
 
 .Aboutme-container{
     width: 100vw;
-    height: 100dvh;
+    height: 100svh;
     display: flex;
     /* flex-direction: row; */
     align-content: space-evenly;
@@ -230,7 +230,7 @@ body{
 }
 
 .Projects-container{
-  height: 100dvh;
+  height: 100svh;
   width: 100vw;
   display: flex;
   align-content: center;
@@ -320,7 +320,7 @@ body{
 
   .Stacks-container{
     position: relative;
-    height: 100dvh;    
+    height: 100svh;    
     display: flex;
     justify-content: center;
     align-content: center;
@@ -449,7 +449,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center; /* center vertically */
-  min-height: 100dvh;
+  min-height: 100svh;
 }
 
 .Contact-wrapper {

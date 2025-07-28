@@ -36,14 +36,14 @@ function Portfolio() {
         const { conditions } = context;
 
           // VAR DEFAULTS. MUST BE SAME AS THE isAll
-          let xAboutmeTitleValue = -80;
-          let yAboutmeTitleValue = -250;
-          let yProjectTitleValue = -250;
-          let xStacksTitleValue = -150;
-          let yStacksTitleValue = -250;
-          let yTitleScaleValue = 0.8;
-          let yAboutComponent = 0;
-          let yProjectcomponent = 10;
+          let xAboutmeTitleValue;
+          let yAboutmeTitleValue;
+          let yProjectTitleValue;
+          let xStacksTitleValue;
+          let yStacksTitleValue;
+          let yTitleScaleValue;
+          let yAboutComponent;
+          let yProjectcomponent ;
 
         if(conditions.is320){
           xAboutmeTitleValue = 0;
@@ -108,11 +108,11 @@ function Portfolio() {
             yProjectcomponent = 5;
         } else if (conditions.isAll){
             // VAR DEFAULTS. MUST BE SAME AS THE TOP
-          xAboutmeTitleValue = -80;
-          yAboutmeTitleValue = -250;
+          xAboutmeTitleValue = -350;
+          yAboutmeTitleValue = -300;
           yProjectTitleValue = -250;
-          xStacksTitleValue = -150;
-          yStacksTitleValue = -250;
+          xStacksTitleValue = -380;
+          yStacksTitleValue = -300;
           yTitleScaleValue = 0.8;
           yAboutComponent = 0;
           yProjectcomponent = 10;
