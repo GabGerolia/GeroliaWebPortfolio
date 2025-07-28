@@ -43,7 +43,7 @@ function Portfolio() {
           let yStacksTitleValue;
           let yTitleScaleValue;
           let yAboutComponent;
-          let yProjectcomponent ;
+          let yProjectcomponent;
 
         if(conditions.is320){
           xAboutmeTitleValue = 0;
