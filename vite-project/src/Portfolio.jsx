@@ -93,7 +93,7 @@ function Portfolio() {
         } else if (conditions.is1024) {
             xAboutmeTitleValue = 0;
             yAboutmeTitleValue = -280;
-            yProjectTitleValue = -275;
+            yProjectTitleValue = -300;
             yTitleScaleValue = 0.7;
             xStacksTitleValue = 0;
             yStacksTitleValue = -250;
@@ -101,13 +101,13 @@ function Portfolio() {
             yProjectcomponent = 5;
         } else if (conditions.is1550) {
             xAboutmeTitleValue = 0;
-            yAboutmeTitleValue = -280;
+            yAboutmeTitleValue = -300;
+            yProjectTitleValue = -300;
             xStacksTitleValue = 0;
             yStacksTitleValue = -250;
             yAboutComponent = 5;
             yProjectcomponent = 5;
         } else if (conditions.isAll){
-            // VAR DEFAULTS. MUST BE SAME AS THE TOP
           xAboutmeTitleValue = -350;
           yAboutmeTitleValue = -300;
           yProjectTitleValue = -250;
