@@ -106,6 +106,7 @@ function Stacks() {
                 <div className="bop logoWrapper tools"><img className="logo" src="/assets/unity.svg" alt="" /><div className="imgName"><p>Unity</p></div></div>
                 <div className="bop logoWrapper tools"><img className="logo" src="/assets/vscode.svg" alt="" /><div className="imgName"><p>VS Code</p></div></div>
                 <div className="bop logoWrapper tools"><img className="logo" src="/assets/vs2022.svg" alt="" /><div className="imgName"><p>Visual Studio 2022</p></div></div>
+                <div className="bop logoWrapper tools"><img className="logo" src="/assets/photoshop.svg" alt="" /><div className="imgName"><p>Adobe Photoshop</p></div></div>
             </div>
         </div>
     </div>
