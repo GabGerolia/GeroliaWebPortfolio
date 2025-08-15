@@ -28,7 +28,7 @@ function Portfolio() {
         is820: "(max-width: 820px)",
         is768: "(max-width: 768px)",
         is619: "(max-width: 619px)",
-        is459: "(max-width: 425px)",
+        is459: "(max-width: 459px)",
         is320: "(max-width: 320px)",
         isAll: "(min-width: 1551px)", // fallback for large screens
       },
@@ -54,7 +54,7 @@ function Portfolio() {
           yStacksTitleValue = -300;
           yAboutComponent = 5;
           yProjectcomponent = 5;
-        }else if(conditions.is425){
+        }else if(conditions.is459){
             xAboutmeTitleValue = 0;
             yAboutmeTitleValue = -275;
             yProjectTitleValue = -275;
