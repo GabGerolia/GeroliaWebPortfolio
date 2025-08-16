@@ -30,6 +30,7 @@ function Portfolio() {
         is619: "(max-width: 619px)",
         is459: "(max-width: 459px)",
         is425: "(max-width: 425px)",
+        is375: "(max-width: 375px)",
         is320: "(max-width: 320px)",
         isAll: "(min-width: 1551px)", // fallback for large screens
       },
@@ -55,6 +56,15 @@ function Portfolio() {
           yStacksTitleValue = -300;
           yAboutComponent = 5;
           yProjectcomponent = 5;
+        }else if(conditions.is375){
+            xAboutmeTitleValue = 0;
+            yAboutmeTitleValue = -275;
+            yProjectTitleValue = -275;
+            yTitleScaleValue = 0.65;
+            xStacksTitleValue = 0;
+            yStacksTitleValue = -275;
+            yAboutComponent = 5;
+            yProjectcomponent = 5;
         }else if(conditions.is459){
             xAboutmeTitleValue = 0;
             yAboutmeTitleValue = -275;
@@ -329,7 +339,7 @@ function Portfolio() {
             duration: 0.5,
             zIndex: 99,
           },
-          "-=0.25"
+          "-=1"
         );
       }
     );
