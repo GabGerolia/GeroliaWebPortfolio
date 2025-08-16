@@ -29,6 +29,7 @@ function Portfolio() {
         is768: "(max-width: 768px)",
         is619: "(max-width: 619px)",
         is459: "(max-width: 459px)",
+        is425: "(max-width: 425px)",
         is320: "(max-width: 320px)",
         isAll: "(min-width: 1551px)", // fallback for large screens
       },
@@ -60,7 +61,7 @@ function Portfolio() {
             yProjectTitleValue = -275;
             yTitleScaleValue = 0.65;
             xStacksTitleValue = 0;
-            yStacksTitleValue = -275;
+            yStacksTitleValue = -300;
             yAboutComponent = 5;
             yProjectcomponent = 5;
         }else if(conditions.is619){
@@ -69,7 +70,7 @@ function Portfolio() {
             yProjectTitleValue = -300;
             yTitleScaleValue = 0.65;
             xStacksTitleValue = 0;
-            yStacksTitleValue = -300;
+            yStacksTitleValue = -280;
             yAboutComponent = 5;
             yProjectcomponent = 5;
         }else if (conditions.is768) {
