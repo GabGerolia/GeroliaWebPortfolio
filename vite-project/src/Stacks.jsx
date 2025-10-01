@@ -89,7 +89,7 @@ function Stacks() {
                 <div className="bop logoWrapper webdev frontend"><img className="logo" src="/assets/html.svg" alt="" /><div className="imgName"><p>HTML</p></div></div>
                 <div className="bop logoWrapper webdev frontend"><img className="logo" src="/assets/css.svg" alt="" /><div className="imgName"><p>CSS</p></div></div>
                 <div className="bop logoWrapper webdev frontend"><img className="logo" src="/assets/js.svg" alt="" /><div className="imgName"><p>JavaScript</p></div></div>
-                <div className="bop logoWrapper webdev frontend"><img className="logo" src="/assets/sass.svg" alt="" /><div className="imgName"><p>SASS</p></div></div>
+                <div className="bop logoWrapper webdev frontend fwlb"><img className="logo" src="/assets/tailwindcss.svg" alt="" /><div className="imgName"><p>Tailwind CSS</p></div></div>
                 <div className="bop logoWrapper webdev backend"><img className="logo" src="/assets/php.svg" alt="" /><div className="imgName"><p>PHP</p></div></div>
                 <div className="bop logoWrapper webdev backend"><img className="logo" src="/assets/sql.svg" alt="" /><div className="imgName"><p>SQL</p></div></div>
                 <div className="bop logoWrapper webdev fwlb"><img className="logo" src="/assets/react.svg" alt="" /><div className="imgName"><p>React</p></div></div>
