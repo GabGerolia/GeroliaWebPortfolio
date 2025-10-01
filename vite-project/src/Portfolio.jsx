@@ -187,7 +187,9 @@ function Portfolio() {
           ease: "power2.in",
           opacity: 0,
           zIndex: 0,
-        });
+        },
+        ".Aboutme-component-parent+=0.75"
+      );
 
         tl.to(
           ".Portfolio-titlename",
