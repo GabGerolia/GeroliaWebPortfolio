@@ -297,7 +297,6 @@ function Portfolio() {
         tl.to(".bop", {
           scale: 1,
           duration: 0.4,
-          opacity: 1,
           stagger: {
             grid: "auto",
             each: 0.3,

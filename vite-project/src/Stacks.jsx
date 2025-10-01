@@ -96,7 +96,7 @@ function Stacks() {
                 <div className="bop logoWrapper webdev fwlb"><img className="logo" src="/assets/vite.svg" alt="" /><div className="imgName"><p>Vite</p></div></div>
                 <div className="bop logoWrapper webdev fwlb"><img className="logo" src="/assets/gsap.svg" alt="" /><div className="imgName"><p>GSAP</p></div></div>
                 <div className="bop logoWrapper webdev fwlb"><img className="logo" src="/assets/framer-motion.svg" alt="" /><div className="imgName"><p>Framer Motion</p></div></div>
-                <div className="bop logoWrapper webdev fwlb"><img className="logo" src="/assets/nodejs.svg" alt="" /><div className="imgName"><p>Node.js</p></div></div>
+                <div className="bop logoWrapper webdev backend fwlb"><img className="logo" src="/assets/nodejs.svg" alt="" /><div className="imgName"><p>Node.js</p></div></div>
                 <div className="bop logoWrapper deskdev"><img className="logo" src="/assets/cpp.svg" alt="" /><div className="imgName"><p>C++</p></div></div>
                 <div className="bop logoWrapper deskdev"><img className="logo" src="/assets/csharp.svg" alt="" /><div className="imgName"><p>C#</p></div></div>
                 <div className="bop logoWrapper deskdev"><img className="logo" src="/assets/java.svg" alt="" /><div className="imgName"><p>Java</p></div></div>
