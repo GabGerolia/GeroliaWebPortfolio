@@ -53,7 +53,7 @@ function Portfolio() {
           yProjectTitleValue = -300;
           yTitleScaleValue = 0.65;
           xStacksTitleValue = 0;
-          yStacksTitleValue = -300;
+          yStacksTitleValue = -275;
           yAboutComponent = 5;
           yProjectcomponent = 5;
         }else if(conditions.is375){

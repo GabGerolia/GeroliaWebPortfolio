@@ -367,14 +367,28 @@ body{
   .logoWrapper{
     scale:0.15;
   }
-
 }
 
-@media (max-width: 380px){
+@media (max-width: 393px){
   .Stacks-logo {
-
     gap: 0.5em;
+  }
+}
 
+@media (max-width: 349px){
+  .Stacks-logo {
+    gap: 0.2em;
+  }
+
+  .logoWrapper{
+    scale:0.05;
+  }
+}
+
+@media (max-width: 331px){
+  .Stacks-wrapper{
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
