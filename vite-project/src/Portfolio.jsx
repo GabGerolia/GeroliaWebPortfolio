@@ -407,7 +407,7 @@ function Portfolio() {
                             >
                                 GitHub
                             </a>
-                            . All you need is install Python and VS code with Python extension.
+                            . All you need is install Python and run the file.
                         </>
                     }
                 />
