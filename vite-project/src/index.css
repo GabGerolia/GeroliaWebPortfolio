@@ -164,7 +164,7 @@ body{
 }
 
 .Aboutme-content span{
-  color: white;
+  white-space: nowrap;
 }
 
 @media (max-width: 1550px){
