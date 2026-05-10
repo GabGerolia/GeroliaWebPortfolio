@@ -13,7 +13,7 @@ function Aboutme(){
                 </div>
                 <div className="Aboutme-content">
                     <p className="header">Hi! My name is <span>John Gabriel Gerolia</span>.</p><br />
-                    <p id="description">BSIT Graduate year 2025. Currently Employed at Security System Integrator Company!</p><br />
+                    <p id="description">BSIT Graduate year 2025. Currently Employed at <span>Vinculum Technologies Corporation</span> a Security System Integrator Company!</p><br />
                     <p id="description">I currently handle procurement at the company where I work, and I also do programming as a hobby sometimes</p> <br />
                     <p id="description">What you will see below are my mini projects made in short amount of time which showcase my knowledge and skills in software development.</p><br />
                     <a href="/GEROLIA-RESUME.pdf" download>
