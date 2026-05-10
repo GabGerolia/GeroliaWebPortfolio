@@ -13,16 +13,15 @@ function Aboutme(){
                 </div>
                 <div className="Aboutme-content">
                     <p className="header">Hi! My name is <span>John Gabriel Gerolia</span>.</p><br />
-                    <p id="description">I am a Fresh Graduate self taught developer who wanted to explore and enhance myself more in the world of programming.</p><br />
-                    <p id="description">My love for Video Games is what drifted me to spark my curiousity to explore how it takes to make one. And that curiousity lead to other areas of Programming</p> <br />
-                    <p id="description">My Goal is to be knowledgeable in different fields of development. No matter how long it takes.</p><br />
+                    <p id="description">BSIT Graduate year 2025. Currently Employed at Security System Integrator Company!</p><br />
+                    <p id="description">I currently handle procurement at the company where I work, and I also do programming as a hobby sometimes</p> <br />
+                    <p id="description">What you will see below are my mini projects where I'm knowledgeable at when it comes to software development.</p><br />
                     <a href="/GEROLIA-RESUME.pdf" download>
                     <button className="Resumebtn">
                         Resume 
                         <img src="/assets/download.svg" alt="download_logo" />
                     </button>
                     </a>
-
                 </div>
             </div>
         </div>
