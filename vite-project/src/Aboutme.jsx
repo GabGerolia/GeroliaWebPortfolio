@@ -12,10 +12,10 @@ function Aboutme(){
                     <img src={myPic} alt="my pic" />
                 </div>
                 <div className="Aboutme-content">
-                    <p className="header">Hi! My name is <span>John Gabriel Gerolia</span>.</p><br />
-                    <p id="description">BSIT Graduate year 2025. Currently Employed at <b>Vinculum Technologies Corporation</b> a Security System Integrator Company!</p><br />
-                    <p id="description">I currently handle procurement at the company where I work, and I also do programming as a hobby sometimes</p> <br />
-                    <p id="description">What you will see below are my mini projects made in short amount of time which showcase my knowledge and skills in software development.</p><br />
+                    <p className="header">Hi! My name is <span>John Gabriel Gerolia</span>.</p><br/>
+                    <p id="description">BSIT Graduate year 2025. Currently Employed at <b>Vinculum Technologies Corporation</b> a Security System Integrator Company!</p><br/>
+                    <p id="description">I am responsible of designing, planning, and documenting security systems, and I also do programming as a hobby sometimes</p><br/>
+                    <p id="description">Below are my capstone project and mini projects I made in short amount of time. Also my contacts</p><br />
                     <a href="/GEROLIA-RESUME.pdf" download>
                     <button className="Resumebtn">
                         Resume 
